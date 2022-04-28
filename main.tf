@@ -5,7 +5,7 @@ terraform {
       version = ">=2.0"
     }
   }
-  
+
 
 # use this command while initializing the backend---->terraform init -backend-config="access_key=B3VYb3NDj9Sgk+kDLnzK6PFCpNn5lBjE+7/VVbHrO2MyrIZYgL9bu1r1jidsk4tSzkg+QdYsLLhkn9IcPWeIEw=="
   backend "azurerm" {
@@ -13,7 +13,7 @@ terraform {
         storage_account_name = "hvgfhvgdh323239" 
         container_name       = "container119"
         key                  = "myterraform.tfstate"
-        access_key  = "JqSpfgCEEGT2ewXI4YqJOd4zCRVkIzbI5KHGvMZ/GzOD0zKgHb0kvRP8Fp9TRNh6xi4U0rKTcB8UunU9KyU47w=="
+        access_key  = "YsWHbvItilz1UiocXTFPmWF1XQ6LCWfQHKYV7lUf7uyW3xNCeNzEYuVk6I8yyftZroiKxOxxt3ldTc+5z3jeZA=="
     }
 }
 
@@ -55,7 +55,7 @@ resource "azurerm_storage_account" "example" {
   account_replication_type = "GRS"
 
   tags = {
-    environment = "staging"
+    environment = "prod-dev"
   }
 }
 
