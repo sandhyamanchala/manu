@@ -7,3 +7,9 @@ azurerm_virtual_machine = "vemula"
 azurerm_storage_account = "11storagejkhvjhvemu1"
 vnet_addr=["10.5.0.0/16"]
 
+
+
+
+# git pull origin master --allow-unrelated-histories
+
+
